@@ -55,7 +55,7 @@ public class CustomerDAOJDBCImpl implements CustomerDAO {
     }
 
     @Override
-    public Customer getByCustomerID() {
+    public Customer getByCustomerID(String id) {
         return null;
     }
 
